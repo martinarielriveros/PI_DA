@@ -1,5 +1,6 @@
-# Analisis de Siniestros Viales en CABA
-### (Ciudad Autonoma de Buenos Aires, Argentina)
+# <center> Analisis de Siniestros Viales</center>
+### <center>Ciudad Autonoma de Buenos Aires, Argentina</center>
+### <center>2016 - 2021</center>
 
 ## Indice rapido
 - [Acerca del Estudio](#acerca-del-estudio)
@@ -21,11 +22,10 @@ A continuacion se presentan los resultados del analisis de la informacion sumini
 Durante el año 2021 se registraron 97 víctimas fatales
 en 97 hechos.
 
-La tasa de mortalidad (3,2 fallecidos cada 100.000
+La tasa de mortalidad (1,36 fallecidos cada 100.000
 habitantes) de la Ciudad se encuentra por debajo de
 las observadas a nivel nacional, con una evolución
-similar en ambos distritos para los años 2019, 2020 y
-2021.
+a la baja comenzando por el fuerte descenso desde 2,57 a 1,86 iniciado en el segundo semestre de 2019. Esta baja se pronuncio aun mas hasta llegar a un minimo de 1.01 para el segundo semestre de 2020, correspondiente a lo esperado debido al ASPO (Aislamiento Social Preventivo Obligatorio)
 
 El 77% víctimas fatales fueron de sexo masculino  y el 48% tenían entre 40 y 59 años de edad. Los meses de Enero y Mayo resultaron los de mayor incidencia, asi como los dias Lunes aportaron el mayor numero de casos.
 
