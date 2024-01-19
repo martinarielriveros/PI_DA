@@ -1,11 +1,20 @@
 # Analisis de Siniestros Viales en CABA
 ### (Ciudad Autonoma de Buenos Aires, Argentina)
 
+## Indice rapido
+- [Acerca del Estudio](#acerca-del-estudio)
+- [Resumen Ejecutivo](#resumen-ejecutivo)
+- [Fuentes de los Datos y Webs de apoyo](#fuentes-de-los-datos-y-webs-de-apoyo)
+- [Metodologia general de trabajo](#metodologia-general-de-trabajo)
+- [KPI's](#key-performance-indicators)
+- [Autor](#autor)
 
 
 ## Acerca del Estudio
 
 A continuacion se presentan los resultados del analisis de la informacion suministada mediante la simulacion del rol de un analista de datos con el fin de obtener informacion respecto los accidentes de tránsito con víctimas fatales en la Ciudad de Buenos Aires (CABA) entre 2016 y 2021. El proyecto simula ser realizado para el Observatorio de Movilidad y Seguridad Vial, que opera como parte de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires
+
+[Indice](#indice-rapido)
 
 ## Resumen Ejecutivo
 
@@ -38,6 +47,8 @@ Los meses de Enero y Mayo fueron los de mayor ocurrencia de siniestros, siendo l
 
 Deberia exlcuirse del analisis toda relacion con el ano 2020 ya que la Pandemia declarada debido al Covid-19 no permite sacar conlusiones validas.
 
+[Indice](#indice-rapido)
+
 ## Fuentes de los datos y webs de apoyo
 
 Para el analisis se tomaron los siguientes archivos como fuente de los datos:
@@ -53,6 +64,8 @@ Para el analisis se tomaron los siguientes archivos como fuente de los datos:
     **[mapshaper.org](https://mapshaper.org/)** - permite guardar archivos geoJson en formato aceptado por PowerBI
 
 - Libreria [Folium](https://python-visualization.github.io/folium/latest/#) para visualizaciones de mapas potentes (en EDA_homicidios.ipynb)
+
+[Indice](#indice-rapido)
 
 ## Metodologia general de trabajo:
 
@@ -77,7 +90,9 @@ Para el analisis se tomaron los siguientes archivos como fuente de los datos:
     * Se generaron ID unicos para cada dimension y se vincularon.
     * Se generaron columnas calculadas y medidas calculadas de acuerdo a necesidades varias requeridas por el trabajo(Tabla Calendario, Segmentaciones de datos como hora del siniestro y rango etario entre otros, incorporacion de mapas de forma, etc.)
 
-## Key Performance Indicators (Indicadores Clave de Rendimiento)
+[Indice](#indice-rapido)
+
+## Key Performance Indicators
 
 Finalmente se concluye el analisis con la presenacion de 3 indicadores claves de rendiento.
 
@@ -98,6 +113,9 @@ Se define la cantidad de accidentes mortales de motociclistas en siniestros vial
 De similares consideraciones al caso anterior pero realizando recuentos sobre automovilistas ((Numero de accidentes mortales con victimas automovilistas en el ano anterior - Numero de accidentes mortales con victimas automovilistas en el ano actual) / Numero de accidentes mortales con victimas automovilistas en el ano anterior * 100). En este caso se tomo como referencia la tabla de dimension DIM_ACUSADO.
 
 ![Alt Text](images/Captura7.png)
+
+[Indice](#indice-rapido)
+
 ## Autor
 
 *Martin Riveros*
@@ -105,3 +123,5 @@ De similares consideraciones al caso anterior pero realizando recuentos sobre au
 [*github.com/martinarielriveros*](https://github.com/martinarielriveros)
 
 **+54 9 342 6142160**
+
+[Indice](#indice-rapido)
