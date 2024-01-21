@@ -1,3 +1,5 @@
 {
-    "editor.renderControlCharacters": false
+    "notebook.trusted": true,
+    "notebook.editorOptions": {
+    "firstLine": "// Note: Trusting all notebooks for easier viewing in Visual Studio Code."}
 }
