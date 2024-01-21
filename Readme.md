@@ -65,7 +65,7 @@ Para el analisis se tomaron los siguientes archivos como fuente de los datos:
 
 ## Metodologia general de trabajo:
 
-- Se realizo una transformacion de datos inicial ([ETL](https://github.com/martinarielriveros/PI_DA/blob/main/data/ETL_homicidios.ipynb)) tanto sobre Homicidios como Lesiones, las cuales incuyeron:
+- Se realizo una transformacion de datos inicial ([ETL](https://github.com/martinarielriveros/PI_DA/blob/main/ETL-EDA/ETL_homicidios.ipynb)) tanto sobre Homicidios como Lesiones, las cuales incuyeron:
     * Eliminar columas no relevantes para los analisis posteriores.
     * Eliminar valores nulos y faltantes.
     * Completar filas de acuerdo a otras columnas con valores relevantes.
@@ -74,7 +74,7 @@ Para el analisis se tomaron los siguientes archivos como fuente de los datos:
     * Modificar tipos de datos.
     * Se generaron los archivos depurados necesarios para las etapas siguientes.
 
-- A continuacion se realizo un analisis inicial de los datos ([EDA](https://github.com/martinarielriveros/PI_DA/blob/main/data/EDA_homicidios.ipynb)), los cuales no fueron exaustivos ya que toda la informacion obtenida podia ser validada y potenciada en la instancia siguiente de la creacion del tablero de control con Power BI. Alguns consideraciones relevantes:
+- A continuacion se realizo un analisis inicial de los datos ([EDA](https://github.com/martinarielriveros/PI_DA/blob/main/ETL-EDA/EDA_homicidios.ipynb)), los cuales no fueron exaustivos ya que toda la informacion obtenida podia ser validada y potenciada en la instancia siguiente de la creacion del tablero de control con Power BI. Alguns consideraciones relevantes:
 
     * Se genero una sesion de Spark (libreria pyspark) para poder generar consultas SQL nativas en python.
     * Se vincularon tablas y se obtvieron resultados para poder ser validados posteriormente.
