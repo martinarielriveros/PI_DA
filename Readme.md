@@ -19,21 +19,17 @@ A continuacion se presentan los resultados del analisis de la informacion sumini
 
 ## Resumen Ejecutivo
 
-Durante el año 2021 se registraron 97 víctimas fatales
-en 97 hechos.
+Durante el año 2021 se registraron 97 víctimas fatales en 97 hechos.
 
-La tasa de mortalidad (1,36 fallecidos cada 100.000
-habitantes) de la Ciudad se encuentra por debajo de
-las observadas a nivel nacional, con una evolución
-a la baja comenzando por el fuerte descenso desde 2,57 a 1,86 iniciado en el segundo semestre de 2019. Esta baja se pronuncio aun mas hasta llegar a un minimo de 1.01 para el segundo semestre de 2020, correspondiente a lo esperado debido al ASPO (Aislamiento Social Preventivo Obligatorio)
+La tasa de mortalidad (1,36 fallecidos cada 100.000 habitantes) de la Ciudad se encuentra por debajo de las observadas a nivel nacional, con una evolución a la baja comenzando por el fuerte descenso desde 2,57 a 1,86 iniciado en el segundo semestre de 2019. Esta baja se pronuncio aun mas hasta llegar a un minimo de 1,01 para el segundo semestre de 2020, correspondiente a lo esperado debido al ASPO (Aislamiento Social Preventivo Obligatorio).
 
-El 77% víctimas fatales fueron de sexo masculino  y el 48% tenían entre 40 y 59 años de edad. Los meses de Enero y Mayo resultaron los de mayor incidencia, asi como los dias Lunes aportaron el mayor numero de casos.
+El 77% víctimas fatales fueron de sexo masculino y el 48% tenían entre 18 y 39 años de edad. Los meses de Enero y Mayo resultaron los de mayor incidencia, asi como los dias Lunes aportaron el mayor numero de casos.
 
 Los momentos del dia en que se presentan los hechos no tienen una preponderancia marcada (entre 28 y 30% entre las 0 y las 19 hs.), salvo que luego de las 19 hs. la cantidad de victimas desciende a mas de la mitad (13%)
 
 ![Alt Text](images/Captura5.png)
 
-Las Comunas 4 y 9 fueron las mas afectadas por los hechos, siendo las Autopistas correspondientes a todas ellas las que soportan las mayores ocurrencias (63%). Si ademas se incluye la Av. Gral Paz (caso particular del relevamiento de datos), el numero se incrementa a un total del 73%.
+Las Comunas 4 y 9 fueron las mas afectadas por los hechos, siendo las Autopistas correspondientes a todas ellas las que soportan las mayores ocurrencias (63%). Si ademas se incluye la Av. Gral Paz (caso particular del relevamiento de datos), el numero se incrementa a un total del 75%.
 
 ![Alt Text](images/Captura3.png)
 
@@ -43,7 +39,7 @@ En relación al tipo de acusado que utilizo la vía, salvo en 2016 y 2018 que re
 
 Los meses de Enero y Mayo fueron los de mayor ocurrencia de siniestros, siendo los dias Lunes y Sabados los que llevaron la delantera.
 
-![Alt Text](images/Captura4.png)
+![Alt Text](images/Captura1.png)
 
 Deberia exlcuirse del analisis toda relacion con el ano 2020 ya que la Pandemia declarada debido al Covid-19 no permite sacar conlusiones validas.
 
@@ -69,7 +65,7 @@ Para el analisis se tomaron los siguientes archivos como fuente de los datos:
 
 ## Metodologia general de trabajo:
 
-- Se realizo una transformacion de datos inicial (EDA)tanto sobre Homicidios como Lesiones, las cuales incuyeron:
+- Se realizo una transformacion de datos inicial ([ETL](https://github.com/martinarielriveros/PI_DA/blob/main/data/ETL_homicidios.ipynb)) tanto sobre Homicidios como Lesiones, las cuales incuyeron:
     * Eliminar columas no relevantes para los analisis posteriores.
     * Eliminar valores nulos y faltantes.
     * Completar filas de acuerdo a otras columnas con valores relevantes.
@@ -78,7 +74,7 @@ Para el analisis se tomaron los siguientes archivos como fuente de los datos:
     * Modificar tipos de datos.
     * Se generaron los archivos depurados necesarios para las etapas siguientes.
 
-- A continuacion se realizo un analisis inicial de los datos (EDA), los cuales no fueron exaustivos ya que toda la informacion obtenida podia ser validada y potenciada en la instancia siguiente de la creacion del tablero de control con Power BI. Alguns consideraciones relevantes:
+- A continuacion se realizo un analisis inicial de los datos ([EDA](https://github.com/martinarielriveros/PI_DA/blob/main/data/EDA_homicidios.ipynb)), los cuales no fueron exaustivos ya que toda la informacion obtenida podia ser validada y potenciada en la instancia siguiente de la creacion del tablero de control con Power BI. Alguns consideraciones relevantes:
 
     * Se genero una sesion de Spark (libreria pyspark) para poder generar consultas SQL nativas en python.
     * Se vincularon tablas y se obtvieron resultados para poder ser validados posteriormente.
